@@ -1,0 +1,242 @@
+{
+	"common": {
+		"no": "No",
+		"yes": "Yes"
+	},
+	"components": {
+		"footer": {
+			"appVersion": "{0} - {1}",
+			"copyright": "Under CreativeCommons license",
+			"githubLink": "Follow FAT on GitHub",
+			"notifications": {
+				"updateDownloaded": {
+					"cancelTitle": "Later",
+					"message": "The update {0} released on {1} has been downloaded. It will be applied the next time the application is started.",
+					"okTitle": "Restart",
+					"title": "Update {0} ready"
+				},
+				"updateError": {
+					"message": "An error occurred while updating FAT with the following massage: {0}",
+					"title": "Update failed"
+				}
+			},
+			"signature": "Developed by Quentin Lamotte",
+			"updateStatus": {
+				"CHECKING_FOR_UPDATE": "Checking for updates...",
+				"UPDATE_AVAILABLE": "Update available!",
+				"UPDATE_DOWNLOADED": "Update {0} ready!",
+				"UPDATE_ERROR": "Update failed. Retry?",
+				"UPDATE_NOT_AVAILABLE": "Updated version. Check again?",
+				"UPDATE_PROGRESS": "Update in progress..."
+			}
+		},
+		"menu": {
+			"dropdowns": {
+				"database": "Database"
+			},
+			"links": {
+				"odbc": "ODBC",
+				"speedTest": "Speed Test",
+				"sql": "SQL",
+				"system": "System",
+				"workflow": "Workflow"
+			}
+		}
+	},
+	"message": "hello i18n !!",
+	"views": {
+		"main": {
+			"description": "Other features will be added soon!",
+			"subtitle": "Administration tool for Flyff servers"
+		},
+		"odbc": {
+			"notifications": {
+				"testFailed": {
+					"message": "Connection to DSN \"{0}\" failed. If you are using Integrated Windows authentication, the user used to launch FAT may not be allowed to log in. The DSN may also not be able to accept connections made by this test. Only DSNs for SQL servers are supported by FAT.",
+					"title": "Connection failed"
+				},
+				"testSucceeded": {
+					"message": "Connection to DSN \"{0}\" was successful. If your server has been configured with its settings, it should also have access to it.",
+					"title": "Connection succeeded"
+				}
+			},
+			"sections": {
+				"dataSourceNames": {
+					"copyButton": "Copy the connection string",
+					"documentationButton": "Learn more about connection strings.",
+					"empty": "No DSN meeting your search criteria was found on your system.",
+					"subtitle": "Check that your DSN (Data Source Name) are correctly configured, according to the needs of your Flyff server. You can test them individually to validate that they work. The test consists of opening a connection to the connection string associated with the DSN. Note however that the tests will be performed with the same user as the one used to launch FAT. DSNs using Integrated Windows Authentication will display an error during the test if they are configured to use another user.",
+					"testButton": "Test Connection",
+					"title": "Configured DSNs"
+				},
+				"drivers": {
+					"downloadButton": "Microsoft ODBC drivers download page",
+					"empty": "No ODBC driver meeting your search criteria was found on your system.",
+					"subtitle": "Verify that the ODBC drivers that your Flyff server needs are installed on your system. Otherwise, you can install them using versions included in Microsoft SQL Server installers or independently, by downloading them directly from Micrososft.",
+					"title": "Installed ODBC drivers"
+				},
+				"filter": {
+					"activeDriversOnlyLabel": "Only show ODBC drivers that are used by at least one DSN",
+					"subtitle": "Start by providing keywords to filter the names of ODBC drivers or data sources to process.",
+					"textLabel": "Name of the ODBC drivers or DSNs to search",
+					"title": "Filter"
+				}
+			},
+			"title": "ODBC assistant"
+		},
+		"speedTest": {
+			"sections": {
+				"bandwidth": {
+					"date": "Test date",
+					"download": "Download",
+					"isp": "Service provider",
+					"jitter": "Jitter",
+					"ping": "Ping",
+					"title": "Bandwidth",
+					"upload": "Upload"
+				},
+				"interface": {
+					"lan": "LAN IP",
+					"mac": "MAC address",
+					"title": "Interface",
+					"vpn": "VPN",
+					"wan": "WAN IP"
+				},
+				"server": {
+					"country": "Country",
+					"host": "Host",
+					"ip": "IP",
+					"location": "Location",
+					"name": "Server",
+					"title": "Server"
+				},
+				"terms": {
+					"acceptGdprLabel": "I accept the GDPR privacy clause",
+					"acceptLicenseLabel": "I accept the terms of use",
+					"description": "The speed test is carried out with the CLI and Ookla services. It should give the same results as on the website or on official applications. Ookla is not affiliated with FAT because the application uses Ookla Open Source resources, without any particular partnership. You will still have to accept Ookla's terms of use and confidentiality clause to launch the test.",
+					"subTitle": "Test carried out with the Ookla CLI",
+					"title": "Speed Test with Ookla"
+				}
+			},
+			"startButton": "Start",
+			"title": "Speed Test"
+		},
+		"sql": {
+			"sections": {
+				"connection": {
+					"authenticationLabel": "Authentication",
+					"connectButton": "Connect",
+					"connectionError": "An error occurred while connecting to the DSN: {0}",
+					"connectionStringLabel": "ODBC connection string",
+					"connectivityLabel": "Connectivity",
+					"databaseDescription": "The name of the database as configured in the ODBC DSNs.",
+					"databaseLabel": "Database",
+					"driverDescription": "Flyff databases generally use \"SQL Server Native Client 10.0\" or higher.",
+					"driverLabel": "ODBC driver",
+					"passwordLabel": "Password",
+					"serverDescription": "Host  and SQL instance names.",
+					"serverLabel": "SQL server",
+					"title": "ODBC DSN connection",
+					"trustedConnectionDescription": "Connect with the current user (the one who launched FAT).",
+					"trustedConnectionLabel": "Windows authentication",
+					"usernameLabel": "Username"
+				},
+				"procedure": {
+					"error": "An error occurred while retrieving stored procedures: {0}",
+					"listButton": "List procedures",
+					"tip": "You can double-click on a line to prefill a query on the stored procedure in question. If a stored procedure exposes multiple parameters, all of its lines will prefill the same request with all of its parameters.",
+					"title": "Stored procedures"
+				},
+				"query": {
+					"executeButton": "Execute",
+					"languageLabel": "Query language",
+					"prettyStatementLabel": "Formatted instruction",
+					"requestError": "An error occurred during the request: {0}",
+					"statementLabel": "Statement to execute",
+					"title": "Query"
+				},
+				"tables": {
+					"error": "An error occurred while retrieving the tables: {0}",
+					"listButton": "List tables",
+					"schemaDescription": "MS SQL databases for Flyff generally use \"dbo\" for their tables.",
+					"schemaLabel": "SQL schema",
+					"tip": "You can double-click on a line to prefill a query on the table in question.",
+					"title": "Tables"
+				},
+				"workspace": {
+					"connected": "Connection to the ODBC DSN is established. You can execute your queries on it.",
+					"notConnected": "Connection to the ODBC DSN is inactive. Please establish a connection in order to make your requests.",
+					"title": "SQL workspace"
+				}
+			},
+			"title": "SQL assistant"
+		},
+		"system": {
+			"sections": {
+				"cpu": {
+					"cores": "{0} cores (including {1} physical)",
+					"speed": "{0} GHz max. / {1} GHz min. / {2} GHz avg.",
+					"title": "CPU"
+				},
+				"processes": {
+					"experimentalWarning": "This section is experimental! You will find very detailed technical information there. You can do without them to manage your server but they could be useful in very specific cases.",
+					"graph": {
+						"linkLabel": "Started by {0} on {1}",
+						"title": "Processes graph view"
+					},
+					"title": "Running processes",
+					"tree": {
+						"title": "Processes tree view"
+					}
+				},
+				"ram": {
+					"title": "RAM"
+				},
+				"storage": {
+					"title": "Storage"
+				}
+			},
+			"title": "System information"
+		},
+		"workflow": {
+			"sections": {
+				"processes": {
+					"cpuUsage": "CPU: {0} ({1} avg.)",
+					"encodingLabel": "Encoding of standard outputs (stdout and stderr)",
+					"metricsIntervalLabel": "Metrics interval (ms)",
+					"metricsPointsLabel": "Number of measurements to display",
+					"metricsSpan": "The metrics will display a time span of: {0}",
+					"noExecutable": "You have not yet configured an executable in your Workflow. Please add them first by clicking on the \"@: views.workflow.sections.settings.editWorkflowButton\" button above. Once your Workflow configured, you can start and stop your executables, as well as monitor them during their execution.",
+					"noMetric": "No metric is available for this executable.",
+					"ramUsage": "RAM: {0} ({1} avg.)",
+					"restartButton": "Restart",
+					"sendButton": "Send to standard input (stdin)",
+					"sequentialStartButton": "Start up to there",
+					"sequentialStopButton": "Stop up to there",
+					"startButton": "Start",
+					"stdinLabel": "Instruction to send to the process",
+					"stopButton": "Stop",
+					"title": "Processes monitoring"
+				},
+				"settings": {
+					"editWorkflowButton": "Edit workflow",
+					"isAnExecutableRunning": "The workflow will not be editable until all the executables are stopped.",
+					"isStarting": "Several executables are being started. The controls will be blocked until the workflow finishes its launching sequence.",
+					"startAllButton": "Start all",
+					"stopAllButton": "Stop all",
+					"title": "Execution settings"
+				},
+				"workflowSidebar": {
+					"addButton": "Add an executable",
+					"argsLabel": "Arguments",
+					"argsPlaceholder": "Type in an argument then press \"Enter\" to add it",
+					"commandLabel": "File or command to execute",
+					"delayLabel": "Delay (ms)",
+					"hideWindowLabel": "Hide the sub-process window (if supported)",
+					"removeButton": "Delete"
+				}
+			},
+			"title": "Workflow manager"
+		}
+	}
+}

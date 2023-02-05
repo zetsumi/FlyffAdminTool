@@ -1,0 +1,6 @@
+@import './variables.scss';
+
+.card,
+.list-group {
+  @extend .shadow-sm;
+}
