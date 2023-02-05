@@ -1,10 +1,10 @@
 # Flyff Admin Tool
 
-![](https://img.shields.io/github/license/Quentin-Lamotte/Flyff-Admin-Tool?logo=creative-commons&logoColor=white&style=for-the-badge)
+![](https://img.shields.io/github/license/zetsumi/Flyff-Admin-Tool?logo=creative-commons&logoColor=white&style=for-the-badge)
 
-[![](https://img.shields.io/github/v/release/Quentin-Lamotte/Flyff-Admin-Tool?color=green&logo=github&sort=semver&style=for-the-badge)](https://github.com/Quentin-Lamotte/Flyff-Admin-Tool/releases/latest)
-![](https://img.shields.io/github/release-date/Quentin-Lamotte/Flyff-Admin-Tool?color=lightgrey&style=for-the-badge)
-![](https://img.shields.io/github/last-commit/Quentin-Lamotte/Flyff-Admin-Tool?color=lightgrey&style=for-the-badge)
+[![](https://img.shields.io/github/v/release/zetsumi/Flyff-Admin-Tool?color=green&logo=github&sort=semver&style=for-the-badge)](https://github.com/zetsumi/Flyff-Admin-Tool/releases/latest)
+![](https://img.shields.io/github/release-date/zetsumi/Flyff-Admin-Tool?color=lightgrey&style=for-the-badge)
+![](https://img.shields.io/github/last-commit/zetsumi/Flyff-Admin-Tool?color=lightgrey&style=for-the-badge)
 
 [![](https://img.shields.io/discord/548501353639575562?color=7289DA&label=Discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/FQrS8Qd)
 
@@ -67,8 +67,8 @@ You'll be able to see the installed ODBC drivers as well as your DSNs and even t
 
 ## ![](https://img.icons8.com/color/24/000000/source-code.png) Developer guide
 
-![](https://img.shields.io/github/package-json/dependency-version/Quentin-Lamotte/Flyff-Admin-Tool/bootstrap?logo=bootstrap&logoColor=white&style=for-the-badge)
-![](https://img.shields.io/github/package-json/dependency-version/Quentin-Lamotte/Flyff-Admin-Tool/dev/electron?logo=electron&logoColor=white&style=for-the-badge)
+![](https://img.shields.io/github/package-json/dependency-version/zetsumi/Flyff-Admin-Tool/bootstrap?logo=bootstrap&logoColor=white&style=for-the-badge)
+![](https://img.shields.io/github/package-json/dependency-version/zetsumi/Flyff-Admin-Tool/dev/electron?logo=electron&logoColor=white&style=for-the-badge)
 
 ### Requirements
 

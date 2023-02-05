@@ -17,7 +17,7 @@
       <small>
         <b-link
           @click="
-            openExternal('https://github.com/Quentin-Lamotte/Flyff-Admin-Tool')
+            openExternal('https://github.com/zetsumi/Flyff-Admin-Tool')
           "
           class="d-flex align-items-center"
         >
@@ -34,7 +34,7 @@
         <b-link
           @click="
             openExternal(
-              'https://github.com/Quentin-Lamotte/Flyff-Admin-Tool/blob/master/LICENSE.md'
+              'https://github.com/zetsumi/Flyff-Admin-Tool/blob/master/LICENSE.md'
             )
           "
         >
